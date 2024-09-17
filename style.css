@@ -3,4 +3,26 @@ body{
     color: #ffffff;
 }
 
-li {}
+body{
+    margin-left: 35px;
+    background-color: black;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    max-width: 900px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 500;
+    color: #603f26;
+    font-size: 50px;
+}
+
+li {
+    margin: 25px;
+}
