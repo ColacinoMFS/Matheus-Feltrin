@@ -1,19 +1,25 @@
-body{
-    background-color: black;
-    color: #ffffff;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
 }
 
 body{
     margin-left: 35px;
-    background-color: black;
-    color: #ffffff;
+    background-color: #ffeac5;
+    color: #6c4e31;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 main {
     max-width: 900px;
+    background-color: #ffdbb5;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: #603f26 10px 10px 15px;
 }
 
 h1 {
