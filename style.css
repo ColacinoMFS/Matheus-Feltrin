@@ -1,4 +1,23 @@
-body{ 
-    color:aliceblue;
-    background-color: black;
-  }
+body {
+   background-color: azure;
+}
+header{
+  display: flex;
+  width: 100%;
+}
+.nav-lista{
+  display: flex;
+  list-style: none;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  text-transform: uppercase;
+  justify-content: right;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  background-color: black;
+  color: aliceblue;
+}
